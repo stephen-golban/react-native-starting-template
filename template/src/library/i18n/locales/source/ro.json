@@ -1,0 +1,70 @@
+{
+  "error": {
+    "-100": "Connection errors! Please check the connection again.",
+    "0": "Request Timeout",
+    "400": "Bad Request",
+    "401": "Unauthorized",
+    "402": "Payment Required ",
+    "403": "Forbidden",
+    "404": "Not Found",
+    "405": "Method Not Allowed",
+    "406": "Not Acceptable",
+    "407": "Proxy Authentication Required",
+    "408": "Request Timeout",
+    "409": "Conflict",
+    "410": "Gone",
+    "411": "Length Required",
+    "412": "Precondition Failed",
+    "413": "Payload Too Large",
+    "414": "URI Too Long",
+    "415": "Unsupported Media Type",
+    "416": "Range Not Satisfiable",
+    "417": "Expectation Failed",
+    "500": "Internal Server Error",
+    "501": "Not Implemented",
+    "502": "Bad Gateway",
+    "503": "Service Unavailable",
+    "504": "Gateway Timeout",
+    "505": "HTTP Version Not Supported",
+    "have_error": "An error occurred. Please try again later",
+    "error_on_request": "An error occurred while sending the request",
+    "error_on_handle": "An error occurred while processing data",
+    "server_error": "Server Error"
+  },
+  "dialog": {
+    "error": "Error",
+    "cancel": "Cancel",
+    "warning": "Warn",
+    "loading": "Loading",
+    "select": "Select",
+    "continue": "Continuă"
+  },
+
+  "logged-out": {
+    "onboarding": {
+      "language": {
+        "heading": "Ce limbă preferați?"
+      },
+      "notifications": {
+        "heading": "Nu ratați o potrivire perfectă!",
+        "sub-heading": "Activați notificările, astfel încât să vă putem anunța când proprietatea visurilor dvs. apare pe listă",
+        "on": "Activați notificările",
+        "off": "Poate mai târziu"
+      },
+      "location": {
+        "heading": "Explorați cartierul dumneavoastră!",
+        "sub-heading": "Permiteți-ne să utilizăm locația dumneavoastră pentru a vă putea arăta proprietățile din zona dvs.",
+        "on": "Activează locația",
+        "off": "Poate mai târziu"
+      },
+      "interests": {
+        "rent": "Închiriere",
+        "buy": "Cumpărare",
+        "looking": "Doar mă uit"
+      }
+    }
+  },
+  "validation": {
+    "email_required": "Email is required"
+  }
+}
