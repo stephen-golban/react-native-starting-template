@@ -24,9 +24,6 @@
     "boilerplate",
     "starter"
   ],
-  "bin": {
-    "react-native-starting-template": "./cli.js"
-  },
   "author": "Stephen Golban <golban.stephen@gmail.com> (https://github.com/stephen-golban)",
   "license": "MIT",
   "bugs": {
