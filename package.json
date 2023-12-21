@@ -6,13 +6,6 @@
   "scripts": {
     "test": "exit 0"
   },
-  "files": [
-    "template",
-    "template.config.js",
-    "!template/node_modules",
-    "!node_modules",
-    "!template/yarn.lock"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/stephen-golban/react-native-starting-template"
