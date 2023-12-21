@@ -1,14 +1,21 @@
 {
-  "name": "react-native-start-template",
+  "name": "react-native-starting-template",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Clean and minimalist React Native template for a quick start with TypeScript and components",
   "scripts": {
     "test": "exit 0"
   },
+  "files": [
+    "template",
+    "template.config.js",
+    "!template/node_modules",
+    "!node_modules",
+    "!template/yarn.lock"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/stephen-golban/react-native-start-template"
+    "url": "https://github.com/stephen-golban/react-native-starting-template"
   },
   "keywords": [
     "react-native",
@@ -17,10 +24,13 @@
     "boilerplate",
     "starter"
   ],
+  "bin": {
+    "react-native-starting-template": "./cli.js"
+  },
   "author": "Stephen Golban <golban.stephen@gmail.com> (https://github.com/stephen-golban)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stephen-golban/react-native-start-template/issues"
+    "url": "https://github.com/stephen-golban/react-native-starting-template/issues"
   },
-  "homepage": "https://github.com/stephen-golban/react-native-start-template#readme"
+  "homepage": "https://github.com/stephen-golban/react-native-starting-template#readme"
 }
